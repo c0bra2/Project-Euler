@@ -5,7 +5,7 @@
  * 600851475143?                                    *
  *                                                  *
  ****************************************************/
- 
+
 #include <stdio.h>
 #include <math.h> 
 #define NUMBER 600851475143
@@ -14,10 +14,9 @@ int isprime(int n);
 
 int main(void)
 {
-	double num = (sqrt(NUMBER));
 	int i, largest = 0;
 
-	for (i = 1; i < ((int)num); i++)
+	for (i = 1; i < ((int)sqrt(NUMBER)); i++)
 		if (isprime(i) && !(NUMBER % i))
 			largest = i;
 
