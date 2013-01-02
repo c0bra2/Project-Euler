@@ -27,6 +27,6 @@
  		a = b;
  		b = nextNum;
  	}
- 	printf("%d", sum);
+ 	printf("%d\n", sum);
  	return 0;
  }
