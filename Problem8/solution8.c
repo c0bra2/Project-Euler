@@ -47,7 +47,7 @@ int main(void)
 	return 0;
 }
 
-/* calculate the sum of the next 5 consecutive digits in the string*/
+/* calculate the sum of the next 5 consecutive digits in the string */
 int conseq_product(char *a, int i, int offset)
 {
 	char *p;
