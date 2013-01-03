@@ -1,7 +1,8 @@
 #ifndef EULER
 #define EULER
 
+int isprime(int n);
 int ispalindrome(int test);
-char reverse(char *a, char * const b);
+void reverse(char *a, char * const b);
 
 #endif
