@@ -12,7 +12,7 @@ int conseq_product(char *a, int i, int offset);
 
 int main(void)
 {
-	char hugenum[MAX+1] = "73167176531330624919225119674426574742355349194934" //the compiler will combine all these lines into one string
+	char hugenum[MAX+1] = "73167176531330624919225119674426574742355349194934" 
                           "96983520312774506326239578318016984801869478851843"
                           "85861560789112949495459501737958331952853208805511"
                           "12540698747158523863050715693290963295227443043557"
@@ -37,7 +37,8 @@ int main(void)
 	
 	for (i = 0; i < ((MAX - 1) - offset); i += (offset - 1))
 	{
-		product = conseq_product(hugenum, i, offset); //get product of 5 consequtive digits starting from hugenum[i]
+		//get product of 5 consequtive digits starting from hugenum[i]
+		product = conseq_product(hugenum, i, offset); 
 		
 		if (product > largest) 
 			largest = product; 
