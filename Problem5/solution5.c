@@ -8,9 +8,7 @@
  **************************************************************/
 
 #include <stdio.h>
-#ifndef MAX_INT
 #define MAX_INT 2147483647 //((2^32) - 1); signed int (4 bytes)
-#endif
 
 int main(void)
 {
